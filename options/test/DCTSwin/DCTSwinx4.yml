@@ -79,7 +79,7 @@ tea3_network_g:
 
 # path
 tea3_path:
-  pretrain_network_g: experiments/pretrained_models/RCANx4net_g_776000.pth
+  pretrain_network_g: experiments/pretrained_models/RCANx4.pth
   strict_load_g: true
   resume_state: ~
 
