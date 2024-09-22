@@ -1,4 +1,4 @@
-name: EDSR_Mx4_AT
+name: EDSR_Mx4
 model_type: SRModel
 scale: 4
 num_gpu: 1  # set num_gpu: 0 for cpu mode
