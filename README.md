@@ -21,6 +21,17 @@ Please refer to [**BasicSR**](https://github.com/XPixelGroup/BasicSR/blob/master
 [**EDSR Official Models**](https://drive.google.com/drive/folders/1rtJCHuOAEixB1OWmUVbbVm158vzC3kTt)
 [**SwinIR Official Models**](https://github.com/JingyunLiang/SwinIR/releases)
 [**RCAN Official Models**](https://drive.google.com/file/d/10bEK-NxVtOS9-XSeyOZyaRmxUTX3iIRa/view)
+Our trained model will be published soon!!
+
+## Use
+Step 1 - Train DCTSwin
+```
+python .\basicsr\train.py -opt .\options\train\ECCVMTKD\DCTSwinx4.yml
+```
+Step 2 - Train EDSRbl
+```
+python .\basicsr\train.py -opt .\options\train\ECCVMTKD\train_EDSR_Mx4_KD.yml
+```
 
 
 ## Citation
