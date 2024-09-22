@@ -32,7 +32,7 @@ Our trained model will be published soon!!
 ## Use
 Step 1 - Train DCTSwin
 ```
-python .\basicsr\train.py -opt .\options\train\ECCVMTKD\DCTSwinx4.yml
+python .\basicsr\train.py -opt .\options\train\ECCVMTKD\train_DCTSwinx4_3mt.yml
 ```
 Step 2 - Train EDSRbl
 ```
