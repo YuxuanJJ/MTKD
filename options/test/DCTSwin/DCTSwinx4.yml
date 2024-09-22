@@ -1,5 +1,5 @@
 # general settings
-name: DCTSwinx4MTKD1
+name: DCTSwinx4MTKD
 model_type: SRModelTea3
 scale: 4
 num_gpu: auto
