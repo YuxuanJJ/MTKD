@@ -25,10 +25,10 @@ Please refer to [**BasicSR**](https://github.com/XPixelGroup/BasicSR/blob/master
 
 ## Citation
 ```
-@article{jiang2023compressing,
-  title={Compressing Deep Image Super-resolution Models},
-  author={Jiang, Yuxuan and Nawala, Jakub and Zhang, Fan and Bull, David},
-  journal={arXiv preprint arXiv:2401.00523},
-  year={2023}
+@article{jiang2024mtkd,
+  title={MTKD: Multi-Teacher Knowledge Distillation for Image Super-Resolution},
+  author={Jiang, Yuxuan and Feng, Chen and Zhang, Fan and Bull, David},
+  journal={arXiv preprint arXiv:2404.09571},
+  year={2024}
 }
 ```
