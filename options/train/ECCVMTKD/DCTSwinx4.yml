@@ -100,7 +100,7 @@ network_g:
 
 # path
 path:
-  pretrain_network_g: ./experiments/ECCV2024model/MTKD2024/DCTSwinx4MTKDnet_g_25000.pth
+  pretrain_network_g: ~
   strict_load_g: true
 
 
