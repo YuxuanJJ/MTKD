@@ -42,10 +42,10 @@ python .\basicsr\train.py -opt .\options\train\ECCVMTKD\train_EDSR_Mx4_KD.yml
 
 ## Citation
 ```
-@article{jiang2024mtkd,
+@inproceedings{jiang2024mtkd,
   title={MTKD: Multi-Teacher Knowledge Distillation for Image Super-Resolution},
   author={Jiang, Yuxuan and Feng, Chen and Zhang, Fan and Bull, David},
-  journal={arXiv preprint arXiv:2404.09571},
+  booktitle={European Conference on Computer Vision},
   year={2024}
 }
 ```
