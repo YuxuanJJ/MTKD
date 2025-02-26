@@ -90,7 +90,7 @@ tea3_network_g:
 
 # path
 tea3_path:
-  pretrain_network_g: ./experiments/ECCV2024model/MTKD2024/DCTSwinx4MTKDnet_g_25000.pth
+  pretrain_network_g: experiments/pretrained_models/RCANx4.pth
   strict_load_g: false
   resume_state: ~
 
@@ -112,7 +112,7 @@ DCTSwin_network_g:
 
 # path
 DCTSwin_path:
-  pretrain_network_g: experiments/DCTSwinx4/models/net_g_174000.pth
+  pretrain_network_g: ~
   strict_load_g: false
   resume_state: ~
 
@@ -131,7 +131,7 @@ network_g:
 
 # path
 path:
-  pretrain_network_g: experiments/ECCV2024model/MTKD2024/EDSRbl_MTKDx4_net_g_17000.pth #pretrained_models/EDSR_Mx2_f64b16_DIV2K_official-3ba7b086.pth
+  pretrain_network_g: ~
   strict_load_g: false
   resume_state: ~
 
@@ -146,10 +146,10 @@ train:
 
   scheduler:
     type: MultiStepLR
-    milestones: [200000, 400000, 600000]
+    milestones: [250000, 400000, 450000, 475000]
     gamma: 0.5
 
-  total_iter: 800000
+  total_iter: 500000
   warmup_iter: -1  # no warm up
 
   # distill losses
