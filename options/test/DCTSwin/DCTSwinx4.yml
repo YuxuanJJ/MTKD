@@ -36,7 +36,7 @@ tea1_network_g:
 
 # path
 tea1_path:
-  pretrain_network_g: ~
+  pretrain_network_g: experiments/pretrained_models/EDSR_Lx4_f256b32_DIV2K_official-76ee1c8f.pth
   strict_load_g: true
   resume_state: ~
 
